@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: "cat-2083492_1280.jpeg";
+}

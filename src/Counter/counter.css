@@ -1,0 +1,35 @@
+main {
+  margin: 225px;
+  background-color: rgb(221, 230, 229);
+  border-radius: 20px;
+  border-style: solid;
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#reset-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.operation-btn {
+  background-color: salmon;
+}
