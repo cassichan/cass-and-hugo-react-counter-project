@@ -38,6 +38,43 @@
 }
 
 body {
-  background-color: black;
-  background-image: "cat-2083492_1280.jpeg";
+  /* background-color: black; */
+  background-color: rgb(230, 191, 191);
+  /* background-image: url("./cat-1647775_960_720.webp"); */
+  background-image: url("kitten-4611189_960_720.jpeg");
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: lightgrey;
+}
+
+.left-footer-pic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: lightgrey;
+}
+
+.right-footer-pic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-cat {
+  max-width: 10%;
+  border-radius: 30px;
+  padding: 5px;
 }

@@ -1,0 +1,37 @@
+#menubar {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: rgb(199, 161, 24);
+  color: #404040;
+  height: 40px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+#menubar-text {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(199, 161, 24);
+  color: #404040;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+#menubar-pic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.nav-item {
+  display: block;
+  width: 60px;
+}
+
+#menubar-cat {
+  max-width: 10%;
+  border-radius: 30px;
+}

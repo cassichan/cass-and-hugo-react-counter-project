@@ -16,25 +16,28 @@ function Counter() {
 
   return (
     <>
-    <main>
-      <h1>Number of Cats: {count}</h1>
-      <div id="buttons">
-        <button
-          onClick={subtractClick}
-          style={{ borderRadius: "15px" }}
-          className="operation-btn"
-        >
-          -
-        </button>
-        <button onClick={resetClick}>Reset</button>
-        <button
-          onClick={addClick}
-          style={{ borderRadius: "15px" }}
-          className="operation-btn"
-        >
-          +
-        </button>
-      </div>
+      <main>
+        <h1>How Many Cats Does Cass Have?</h1>
+        <h2 id="count-text">Count: {count}</h2>
+        <div id="buttons">
+          <button
+            onClick={subtractClick}
+            style={{ borderRadius: "15px" }}
+            className="operation-btn"
+          >
+            -
+          </button>
+          <button onClick={resetClick} id="reset-btn">
+            Reset
+          </button>
+          <button
+            onClick={addClick}
+            style={{ borderRadius: "15px" }}
+            className="operation-btn"
+          >
+            +
+          </button>
+        </div>
       </main>
     </>
   );
